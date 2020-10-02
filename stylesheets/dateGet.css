@@ -1,0 +1,29 @@
+.rotate-date-1 {
+  animation: rotate-2d-1 1s linear;
+}
+@keyframes rotate-2d-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-date-2 {
+  animation: rotate-2d-2 1s linear;
+}
+@keyframes rotate-2d-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

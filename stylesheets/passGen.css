@@ -1,0 +1,79 @@
+/*-----------------------------
+This CSS file contains all animations for the password generator
+ */
+.result-password > p {
+  animation: opacity-ani 1s linear;
+  border: 2px dotted salmon;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+@keyframes opacity-ani {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*3D animation*/
+.result-password.rotate3d-1 {
+  animation: rotate-3d 1s linear;
+}
+@keyframes rotate-3d {
+  0% {
+    transform: rotateY(0deg);
+    background-color: red;
+  }
+  25% {
+    transform: rotateY(90deg);
+    background-color: yellow;
+  }
+  50% {
+    transform: rotateY(180deg);
+    background-color: blue;
+  }
+  75% {
+    transform: rotateY(270deg);
+    background-color: purple;
+  }
+  100% {
+    transform: rotateY(360deg);
+    background-color: limegreen;
+  }
+}
+.result-password.rotate3d-2 {
+  animation: rotate-3d-2 1s linear;
+}
+@keyframes rotate-3d-2 {
+  0% {
+    transform: rotateY(0deg);
+    background-color: red;
+  }
+  25% {
+    transform: rotateY(90deg);
+    background-color: yellow;
+  }
+  50% {
+    transform: rotateY(180deg);
+    background-color: blue;
+  }
+  75% {
+    transform: rotateY(270deg);
+    background-color: purple;
+  }
+  100% {
+    transform: rotateY(360deg);
+    background-color: limegreen;
+  }
+}
