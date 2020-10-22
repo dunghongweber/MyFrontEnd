@@ -33,7 +33,7 @@
                 </a></li>
             <li class="divider"></li>
             <li><a href="javascript:void(0);" onclick="showDaysForm()">
-                    <h6>Calculate Days {WIP}</h6>
+                    <h6>Calculate Days</h6>
                 </a></li>
             <li><a href="javascript:void(0);" onclick="showDateForm()">
                     <h6>Get the Date</h6>
@@ -123,6 +123,16 @@
 
         <!-- ***DAYS Calculator Form*** -->
         <form action="#" id="day-form" class="center">
+            <!-- place to output result for day-form -->
+            <div class="output-day">
+                <div>
+                    <h5>Result:</h5>
+                </div>
+                <div class="result-day">
+                    <p class="white-text">Please pick a starting and ending date!</p>
+                </div>
+            </div>
+
             <h5>Select Starting Date and Ending Date then choose desired option(s) below</h5>
             <div class="row">
                 <div class="input-field col s6">
@@ -152,14 +162,14 @@
                     <span style="font-size: 20px;">How many years?</span>
                 </label>
             </p>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Calculate!
+            <button class="day-button btn waves-effect waves-light" type="submit" name="action">Calculate!
                 <i class="material-icons right">av_timer</i>
             </button>
         </form>
 
         <!-- ***GET DATE Form*** -->
         <form action="" id="date-form" class="center">
-            <!-- place to output result for password generator -->
+            <!-- place to output result for getdate form -->
             <div class="output-date">
                 <div>
                     <h5>Result (Ending Date):</h5>

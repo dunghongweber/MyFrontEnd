@@ -40,7 +40,7 @@ dateButton.onclick = function getDateData(event) {
 
   if (startingDate.value === "") {
     alert("Please provide a starting date!");
-    outputDate.innerHTML = '<p class="white-text">Oops! Try again, please</p>';
+    outputDate.innerHTML = '<p class="red-text">Oops! Try again, please</p>';
     startingDate.focus();
   } else if (
     Number.isNaN(numOfDays) ||
@@ -48,7 +48,7 @@ dateButton.onclick = function getDateData(event) {
     Number.isNaN(numOfMonths) ||
     Number.isNaN(numOfYears)
   ) {
-    outputDate.innerHTML = '<p class="white-text">Oops! Try again, please</p>';
+    outputDate.innerHTML = '<p class="red-text">Oops! Try again, please</p>';
     alert("Some inputs are blank or empty!");
   } else {
     let d = new Date(startingDate.value);
